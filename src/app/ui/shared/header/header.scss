@@ -1,1 +1,19 @@
 @import '../../../globals.scss';
+
+.header {
+  @include displayFlex(row, space-between, center);
+  width: 100vw;
+  height: 8rem;
+  background-color: $background-color;
+  color: white;
+
+  .logo {
+    img {
+      width: 22rem;
+    }
+  }
+
+  .login-buttons {
+    
+  }
+}

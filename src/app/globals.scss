@@ -3,6 +3,7 @@ $main-color-variation: #dee7ff;
 $secondary-color: #ce2e4a;
 $background-color: #0e0c10;
 $font-family:  "Roboto", sans-serif;
+$border-radius: 0.4rem;
 
 @mixin displayFlex($flex-direction: row, $justify-content, $align-items, $gap: 0, $wrap: wrap) {
   display: flex;
@@ -27,4 +28,15 @@ html {
 
 body {
   background-color: $background-color;
+}
+
+.btn {
+  height: 4rem;
+  padding: 0 1rem;
+  border: none;
+  border-radius: $border-radius;
+  background-color: $main-color;
+  color: white;
+  font-family: $font-family;
+  font-weight: 600;
 }
