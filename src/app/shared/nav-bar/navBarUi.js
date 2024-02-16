@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../globals.scss'
+import './navBar.scss'
 
 function NavBarUi() {
   return (
@@ -14,7 +15,7 @@ function NavBarUi() {
         <li>
           <a>Mis Boletos</a>
         </li>
-        <li>
+        <li className='last-child'>
           <a>Contacto</a>
         </li>
       </ul>

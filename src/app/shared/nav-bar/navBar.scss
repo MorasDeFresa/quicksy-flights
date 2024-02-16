@@ -1,1 +1,37 @@
-@import '../../globals.scss';
+@import "../../globals.scss";
+
+.nav-bar {
+  @include displayFlex(row, center, center);
+  height: 100%;
+
+  ul {
+    @include displayFlex(row, center, center);
+    height: 100%;
+
+    li {
+      @include displayFlex(row, center, center);
+      width: fit-content;
+      height: 40%;
+      padding: 0 3rem;
+      border-right: solid 0.2rem $main-color;
+      list-style: none;
+      font-family: $font-family;
+      font-size: 1.4rem;
+      color: white;
+
+      a:hover {
+        color: white;
+        font-weight: 600;
+      }
+
+      a:active {
+        color: $main-color;
+        font-weight: 600;
+      }
+    }
+
+    .last-child {
+      border: none;
+    }
+  }
+}

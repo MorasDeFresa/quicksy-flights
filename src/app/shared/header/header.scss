@@ -14,6 +14,10 @@
     }
   }
 
+  .nav-bar__container {
+    height: 100%
+  }
+
   .login-buttons {
     @include displayFlex(row, center, center, 1.5rem);
   }
