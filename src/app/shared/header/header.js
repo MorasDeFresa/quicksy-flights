@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderUi from './header-ui'
+import HeaderUi from './headerUi'
 
 function HeaderComponent() {
   return (

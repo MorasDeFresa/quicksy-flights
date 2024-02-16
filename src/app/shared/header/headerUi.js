@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../nav-bar/navBar'
 import './header.scss'
-import '../../../globals.scss'
+import '../../globals.scss'
 
 function HeaderUi() {
   return (
