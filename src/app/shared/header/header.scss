@@ -4,6 +4,7 @@
   @include displayFlex(row, space-between, center);
   width: 100vw;
   height: 8rem;
+  padding: 0 1.5rem;
   background-color: $background-color;
   color: white;
 
@@ -14,6 +15,6 @@
   }
 
   .login-buttons {
-    
+    @include displayFlex(row, center, center, 1.5rem);
   }
 }
