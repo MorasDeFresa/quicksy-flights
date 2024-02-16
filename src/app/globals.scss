@@ -1,0 +1,26 @@
+$main-color: #849fe7;
+$main-color-variation: #dee7ff;
+$secondary-color: #ce2e4a;
+$background-color: #0e0c10;
+$font-family:  "Roboto", sans-serif;
+
+@mixin displayFlex($flex-direction: row, $justify-content, $align-items, $gap: 0, $wrap: wrap) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  gap: $gap;
+  flex-wrap: $wrap;
+}
+
+html {
+  font-size: 10px;
+  font-family: $font-family;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
