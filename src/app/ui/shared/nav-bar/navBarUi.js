@@ -1,6 +1,6 @@
 import React from 'react'
 
-function navBarUi() {
+function NavBarUi() {
   return (
     <nav className='nav-bar'>
       <ul>
@@ -21,4 +21,4 @@ function navBarUi() {
   )
 }
 
-export default navBarUi
+export default NavBarUi

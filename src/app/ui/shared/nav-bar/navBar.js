@@ -1,10 +1,10 @@
 import React from 'react'
-import navBarUi from './navBarUi'
+import NavBarUi from './navBarUi'
 
-function navBar() {
+function NavBar() {
   return (
-    <navBarUi/>
-  )
+      <NavBarUi></NavBarUi>
+    )
 }
 
-export default navBar
+export default NavBar

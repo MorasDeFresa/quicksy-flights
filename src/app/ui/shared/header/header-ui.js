@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../nav-bar/navBar'
 
 function HeaderUi() {
   return (
@@ -7,7 +8,7 @@ function HeaderUi() {
         <img src="" alt="" />
       </div>
       <div className='nav-bar__container'>
-
+        <NavBar></NavBar>
       </div>
       <div className='login-buttons'>
         <button>REGISTRARSE</button>
