@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -104,4 +104,74 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.admin {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  text-align: center;
+}
+
+.item-a {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
+
+.form-get-tickets {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 1rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+.search-fly-bar {
+  border-radius: 10px;
+  border-color: blue 0.1px;
+}
+
+.search-fly-components {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f6f6;
+  justify-content: space-evenly;
+}
+
+.center-title{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.selling-ticket {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.info-ticket-place {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price-fly {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 20px;
+}
+
+.price-fly > .button {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 15px;
 }
