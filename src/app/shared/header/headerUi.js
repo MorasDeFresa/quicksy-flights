@@ -7,7 +7,7 @@ function HeaderUi() {
   return (
     <header className='header'>
       <div className='logo'>
-        <img src="/logo/logo.png" alt="Quicksy Flights"/>
+        <img src="/logos/logo.png" alt="Quicksy Flights"/>
       </div>
       <div className='nav-bar__container'>
         <NavBar></NavBar>
